@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  text-align: center;
+}
+
+#loading {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+.hidden {
+  display: none;
+}
+
+#error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#output {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+#output img {
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
